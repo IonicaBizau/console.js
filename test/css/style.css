@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(54, 0, 0);
+}
+
+div.container {
+    position: absolute;
+    top: 70%;
+    margin-top: -120px;
+    text-align: center;
+    left: 50%;
+    max-width: 600px;
+    background: #2B85ED;
+    color: white;
+    margin-left: -315px;
+    padding: 30px;
+    border-bottom: 11px solid white;
+    width: 580px;
+}
+
+div.container h1 {
+    font-size: 64px;
+    margin: -10px;
+    border-bottom: 5px solid white;
+    border-top: 5px solid white;
+}
+
+div.container h2.small {
+    font-size: 20px;
+}
+
+pre.console {
+    background: rgba(300, 300, 300, 0.7);
+    color: black;
+    text-align: left;
+    padding: 15px;
+    font-family: "Monaco", monospace;
+    font-weight: bold;
+}
