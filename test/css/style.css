@@ -37,3 +37,13 @@ pre.console {
     font-family: "Monaco", monospace;
     font-weight: bold;
 }
+
+textarea.js-code-to-run {
+    border: none;
+    padding: 10px 10px 0px 10px;
+    width: 560px;
+    resize: vertical;
+    font-family: "Monaco", monospace;
+    font-size: 16px;
+    height: 30px;
+}
