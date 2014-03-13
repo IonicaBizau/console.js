@@ -10,6 +10,7 @@ log
 info
 warn
 error
+
 dir
 time
 timeEnd
