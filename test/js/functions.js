@@ -19,7 +19,7 @@ $(document).ready(function () {
         input:    "input.js-code-to-run"
     });
 
-    //console.log("> Welcome to console.js!");
+    console.log("> Welcome to console.js JavaScript library!");
 
     // keyup handler for this textarea
     $("textarea.js-code-to-run").on("keyup", function (e) {
