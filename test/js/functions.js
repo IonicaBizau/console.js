@@ -24,7 +24,6 @@ $(document).ready(function () {
     // keyup handler for this textarea
     $("textarea.js-code-to-run").on("keyup", function (e) {
 
-        console.log(e.keyCode, e.shiftKey);
         // not enter
         if (e.keyCode !== 13) { return; }
         if (e.shiftKey) {
