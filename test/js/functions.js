@@ -16,24 +16,8 @@ $(document).ready(function () {
     // init console js
     ConsoleJs.init({
         selector: "pre.console",
-        input:    "input.js-code-to-run"
+        input: "textarea.js-code-to-run"
     });
 
     console.log("> Welcome to console.js JavaScript library!");
-
-    // keyup handler for this textarea
-    $("textarea.js-code-to-run").focus().on("keyup", function (e) {
-
-        // not enter
-        if (e.keyCode !== 13) { return; }
-        if (e.shiftKey) {
-            e.preventDefault();
-            return false;
-        }
-
-
-        eval($(this).val());
-        $(this).val("");
-
-    });
 });
