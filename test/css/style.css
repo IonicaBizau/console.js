@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: rgb(54, 0, 0);
+    background: #2c3e50;
 }
 
 div.container {
@@ -10,7 +10,7 @@ div.container {
     text-align: center;
     left: 50%;
     max-width: 600px;
-    background: #2B85ED;
+    background: #3498db;
     color: white;
     margin-left: -315px;
     padding: 30px;
