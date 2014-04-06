@@ -3,6 +3,12 @@ body {
     background: #2c3e50;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 div.container {
     position: absolute;
     top: 70%;
