@@ -50,5 +50,6 @@ textarea.js-code-to-run {
 
 /* console colors */
 pre span.info  { color: #004AA0; }
+pre span.debug  { color: #004AA0; }
 pre span.error { color: red; }
 pre span.warn  { color: rgb(255, 133, 0); }
