@@ -3,8 +3,8 @@ console.js
 
 A JavaScript library that overrides the console object bringing its functionality in a DOM element.
 
-> ![](http://i.imgur.com/PmkC20x.gif)
-
+> [![](http://i.imgur.com/PmkC20x.gif)](http://ionicabizau.github.io/console.js/)
+> http://ionicabizau.github.io/console.js/
 
 ## Example
 
