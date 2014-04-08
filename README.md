@@ -44,5 +44,10 @@ Right now, the following methods are implemented:
  - error
  - dir
 
+## Changelog
+
+### `v0.1.0`
+ - Initial release
+
 ## License
 See LICENSE file.
