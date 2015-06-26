@@ -1,0 +1,27 @@
+{
+  "name": "consolejs",
+  "version": "1.0.0",
+  "description": "JavaScript library that overrides the console object bringing its functionality in a DOM element.",
+  "main": "lib/console.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IonicaBizau/console.js.git"
+  },
+  "keywords": [
+    "console",
+    "html",
+    "library"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "KINDLY",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/console.js/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/console.js"
+}
