@@ -14,7 +14,7 @@ $(document).ready(function () {
     }, 1000);
 
     // init console js
-    ConsoleJs.init({
+    ConsoleJS.init({
         selector: "pre.console",
         input: "textarea.js-code-to-run"
     });
