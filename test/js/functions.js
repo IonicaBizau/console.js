@@ -5,15 +5,9 @@
  *  page of console.js library
  *
  * */
-$(document).ready(function () {
+window.addEventListener("load", function () {
 
-    // create an animation
-    $(".container").css("opacity", "0").animate({
-        opacity: 1
-      , top: "30%"
-    }, 1000);
-
-    // init console js
+    // Init console js
     ConsoleJS.init({
         selector: "pre.console",
         input: "textarea.js-code-to-run"
