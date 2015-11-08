@@ -1,9 +1,10 @@
 {
   "name": "consolejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript library that overrides the console object bringing its functionality in a DOM element.",
   "main": "lib/console.js",
   "directories": {
+    "example": "example",
     "test": "test"
   },
   "scripts": {
@@ -11,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IonicaBizau/console.js.git"
+    "url": "git+https://github.com/IonicaBizau/console.js.git"
   },
   "keywords": [
     "console",
@@ -23,5 +24,43 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/console.js/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/console.js"
+  "homepage": "https://github.com/IonicaBizau/console.js",
+  "blah": {
+    "license_year": 2014,
+    "installation": [
+      {
+        "h2": "Usage & Example"
+      },
+      {
+        "p": "Copy the library file (located in `lib` directory) into your app and include it into the webpage:"
+      },
+      {
+        "code": {
+          "language": "html",
+          "content": "<script src=\"path/to/console.min.js\"></script>"
+        }
+      },
+      {
+        "p": "This creates the `ConsoleJS` global. To initialize the console do:"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "ConsoleJS.init({",
+            "   selector: \"pre.console\"",
+            "   // This is optional. Provide it if you want",
+            "   // the user to run custom stuff, otherwise the",
+            "   // ConsoleJS will run in the readonly mode.",
+            ", input: \"textarea.js-code-to-run\"",
+            "});"
+          ]
+        }
+      }
+    ],
+    "title": "console.js",
+    "ex_img": "http://i.imgur.com/PmkC20x.gif",
+    "ex_url": "http://ionicabizau.github.io/console.js/",
+    "show_installation": false
+  }
 }
