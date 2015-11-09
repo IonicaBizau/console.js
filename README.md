@@ -1,4 +1,5 @@
 # console.js [![Support this project][donate-now]][paypal-donations]
+
 JavaScript library that overrides the console object bringing its functionality in a DOM element.
 
 [![consolejs](http://i.imgur.com/PmkC20x.gif)](http://ionicabizau.github.io/console.js/)

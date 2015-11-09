@@ -1,6 +1,6 @@
 {
   "name": "consolejs",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "JavaScript library that overrides the console object bringing its functionality in a DOM element.",
   "main": "lib/console.js",
   "directories": {
