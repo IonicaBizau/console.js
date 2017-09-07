@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 Adds a new element where the console will show the output.
 
 #### Params
+
 - **Object** `options`: The DOM element (or query selector) or an object containing the following fields:
 
  - selector (String|HTMLElement): The DOM element or query selector.
