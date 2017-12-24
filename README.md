@@ -11,11 +11,13 @@
 
 ## Usage & Example
 
+
 Copy the library file (located in `lib` directory) into your app and include it into the webpage:
 
 ```html
 <script src="path/to/console.min.js"></script>
 ```
+
 
 This creates the `ConsoleJS` global. To initialize the console do:
 
@@ -28,6 +30,7 @@ ConsoleJS.init({
 , input: "textarea.js-code-to-run"
 });
 ```
+
 
 ## :memo: Documentation
 
